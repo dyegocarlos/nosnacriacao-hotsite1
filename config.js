@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Nós na Criação', // <title>
-  manifestName: '',
-  manifestShortName: '', // max 12 characters
+  manifestName: 'Hotsite',
+  manifestShortName: 'nosnacriacao', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
