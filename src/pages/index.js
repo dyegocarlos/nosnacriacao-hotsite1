@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Link } from 'gatsby';
+import logo from '../assets/img/logonoswhite.png';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import Scroll from '../components/Scroll';
@@ -60,7 +61,9 @@ const IndexPage = () => (
 
     <section id="banner">
       <header>
-        <h2>Sobre o Nós na Criação</h2>
+        <img width="100px" src={logo} />
+
+        <h2>Nós na Criação</h2>
       </header>
       <p>O Nós na Criação é um movimento de juventude cristã focado em colaborar com a igreja local na vivência da fé em relação de coexistência na Criação de Deus. A atuação do movimento com a juventude se estabelece na reflexão a respeito da fé na Criação de Deus, da qual somos parte. Entendemos que o tema do Meio Ambiente e da coexistência harmônica na criação de Deus não é um tema acessório ou transitório, mas permanente e urgente.
       </p> <br />
