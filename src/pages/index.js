@@ -56,31 +56,31 @@ const ROW2_IMAGES = [
 ];
 const IndexPage = () => (
   <Layout>
-    <Header />
+
 
     <section id="banner">
       <header>
-        <h2>This is Overflow</h2>
+        <h2>Sobre o Nós na Criação</h2>
       </header>
-      <p>
-        A brand new site template designed by{' '}
-        <a href="http://twitter.com/ajlkn">AJ</a> for{' '}
-        <a href="http://html5up.net">HTML5 UP</a>.<br />
-        It’s responsive, built on HTML5/CSS3, and entirely free
-        <br />
-        under the{' '}
-        <a href="http://html5up.net/license">Creative Commons license</a>.
-      </p>
+      <p>O Nós na Criação é um movimento de juventude cristã focado em colaborar com a igreja local na vivência da fé em relação de coexistência na Criação de Deus. A atuação do movimento com a juventude se estabelece na reflexão a respeito da fé na Criação de Deus, da qual somos parte. Entendemos que o tema do Meio Ambiente e da coexistência harmônica na criação de Deus não é um tema acessório ou transitório, mas permanente e urgente.
+      </p> <br />
+      {/* <p>A metodologia criada pelo Nós na Criação tem por premissa a leitura e reflexão crítica das escrituras a partir da segunda carta de Paulo aos Coríntios sobre o Ministério da Reconciliação (2Co 5:18-20). Aliando esse texto ao amor incondicional de Deus (Jo 3:16) e ao mandado de Jesus sobre a vivência do evangelho junto a TODA criatura (Mc 16:15), entendemos que não podemos nos furtar de vivenciar essa espiritualidade na Criação, fazendo isso apenas entre a humanidade, como se esta não fizesse parte da Criação como um todo.</p> */}
       <footer>
-        <Scroll type="id" element="first">
-          <a href="#first" className="button style2 scrolly">
-            Act on this message
-          </a>
-        </Scroll>
+        {/* <Scroll type="id" element="first"> */}
+        <a href="https://forms.gle/RHF26Ec738E5S1to7" className="button style2">
+          Participar
+        </a>
+        <a href="#" className="button style3 scrolly">
+          Doar
+        </a>
+        <a href="https://linktr.ee/Nosnacriacao" className="button style2 scrolly">
+          Saiba mais
+        </a>
+        {/* </Scroll> */}
       </footer>
-    </section>
-
-    <article id="first" className="container box style1 right">
+    </section >
+    {/* <Header /> */}
+    {/* <article id="first" className="container box style1 right">
       <a href="/#" className="image fit">
         <img src={pic1} alt="" />
       </a>
@@ -181,9 +181,9 @@ const IndexPage = () => (
           </div>
         </div>
       </form>
-    </article>
+    </article> */}
 
-    <article className="container box style3">
+    {/* <article className="container box style3">
       <header>
         <h2>Elements</h2>
         <p>This starter has other elements.</p>
@@ -193,8 +193,8 @@ const IndexPage = () => (
       </header>
     </article>
 
-    <Footer />
-  </Layout>
+    <Footer /> */}
+  </Layout >
 );
 
 export default IndexPage;
