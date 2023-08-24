@@ -81,6 +81,7 @@ const IndexPage = () => (
         </a>
         {/* </Scroll> */}
       </footer>
+      <Footer />
     </section >
     {/* <Header /> */}
     {/* <article id="first" className="container box style1 right">
@@ -194,9 +195,9 @@ const IndexPage = () => (
         Check it out
         <Link to="/Element"> here </Link>
       </header>
-    </article>
+    </article> */}
 
-    <Footer /> */}
+
   </Layout >
 );
 
