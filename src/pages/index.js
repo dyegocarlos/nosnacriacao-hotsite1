@@ -13,51 +13,51 @@ import nucleos from '../assets/images/nucleos.jpg';
 import Scroll from '../components/Scroll';
 import Gallery from '../components/Gallery';
 
-const ROW1_IMAGES = [
-  {
-    src: require('../assets/images/fulls/01.jpg'),
-    thumbnail: require('../assets/images/thumbs/01.jpg'),
-    caption: 'Ad infinitum',
-  },
-  {
-    src: require('../assets/images/fulls/02.jpg'),
-    thumbnail: require('../assets/images/thumbs/02.jpg'),
-    caption: 'Dressed in Clarity',
-  },
-  {
-    src: require('../assets/images/fulls/03.jpg'),
-    thumbnail: require('../assets/images/thumbs/03.jpg'),
-    caption: 'Raven',
-  },
-  {
-    src: require('../assets/images/fulls/04.jpg'),
-    thumbnail: require('../assets/images/thumbs/04.jpg'),
-    caption: "I'll have a cup of Disneyland, please",
-  },
-];
+// const ROW1_IMAGES = [
+//   {
+//     src: require('../assets/images/fulls/01.jpg'),
+//     thumbnail: require('../assets/images/thumbs/01.jpg'),
+//     caption: 'Ad infinitum',
+//   },
+//   {
+//     src: require('../assets/images/fulls/02.jpg'),
+//     thumbnail: require('../assets/images/thumbs/02.jpg'),
+//     caption: 'Dressed in Clarity',
+//   },
+//   {
+//     src: require('../assets/images/fulls/03.jpg'),
+//     thumbnail: require('../assets/images/thumbs/03.jpg'),
+//     caption: 'Raven',
+//   },
+//   {
+//     src: require('../assets/images/fulls/04.jpg'),
+//     thumbnail: require('../assets/images/thumbs/04.jpg'),
+//     caption: "I'll have a cup of Disneyland, please",
+//   },
+// ];
 
-const ROW2_IMAGES = [
-  {
-    src: require('../assets/images/fulls/05.jpg'),
-    thumbnail: require('../assets/images/thumbs/05.jpg'),
-    caption: 'Cherish',
-  },
-  {
-    src: require('../assets/images/fulls/06.jpg'),
-    thumbnail: require('../assets/images/thumbs/06.jpg'),
-    caption: 'Different.',
-  },
-  {
-    src: require('../assets/images/fulls/07.jpg'),
-    thumbnail: require('../assets/images/thumbs/07.jpg'),
-    caption: 'History was made here',
-  },
-  {
-    src: require('../assets/images/fulls/08.jpg'),
-    thumbnail: require('../assets/images/thumbs/08.jpg'),
-    caption: 'People come and go and walk away',
-  },
-];
+// const ROW2_IMAGES = [
+//   {
+//     src: require('../assets/images/fulls/05.jpg'),
+//     thumbnail: require('../assets/images/thumbs/05.jpg'),
+//     caption: 'Cherish',
+//   },
+//   {
+//     src: require('../assets/images/fulls/06.jpg'),
+//     thumbnail: require('../assets/images/thumbs/06.jpg'),
+//     caption: 'Different.',
+//   },
+//   {
+//     src: require('../assets/images/fulls/07.jpg'),
+//     thumbnail: require('../assets/images/thumbs/07.jpg'),
+//     caption: 'History was made here',
+//   },
+//   {
+//     src: require('../assets/images/fulls/08.jpg'),
+//     thumbnail: require('../assets/images/thumbs/08.jpg'),
+//     caption: 'People come and go and walk away',
+//   },
+// ];
 const IndexPage = () => (
   <Layout>
 
@@ -71,17 +71,19 @@ const IndexPage = () => (
       <p>O Nós na Criação é um movimento latino-americano de inspiração cristã focado em colaborar com lideranças, igrejas e grupos locais na caminhada de se perceber como parte da Criação de Deus.  Atuamos na reflexão e vivência da fé em relação de coexistência na Criação, entendendo que o tema do Meio Ambiente não é um tema acessório ou transitório, mas permanente e urgente.
       </p> <br />
       <footer className='center'>
-        {/* <Scroll type="id" element="first"> */}
+
         <a href="https://forms.gle/RHF26Ec738E5S1to7" className="button style2">
           Participar
         </a>
-        <a href="#" className="button style3 scrolly">
-          Doar
-        </a>
+        <Scroll type="id" element="doar">
+          <a href="#doar" className="button style3 scrolly">
+            Doar
+          </a>
+        </Scroll>
         <a href="https://linktr.ee/Nosnacriacao" className="button style2 scrolly">
           Saiba mais
         </a>
-        {/* </Scroll> */}
+
       </footer>
     </section >
 
@@ -246,15 +248,15 @@ const IndexPage = () => (
       </form>
     </article> */}
 
-    {/* <article className="container box style3">
+    <article id="doar" className="container box style3">
       <header>
-        <h2>Elements</h2>
-        <p>This starter has other elements.</p>
+        <h2>Doar</h2>
+        <p>Para contribuir financeiramente com o Nós na Criação, envie o valor que deseja para a chave pix:</p>
         <br />
-        Check it out
-        <Link to="/Element"> here </Link>
+        <strong>nosnacriacao@gmail.com</strong>
+        {/* <Link to="/Element"> here </Link> */}
       </header>
-    </article> */}
+    </article>
 
     <Footer />
 
