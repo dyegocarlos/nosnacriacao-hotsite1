@@ -5,8 +5,11 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Link } from 'gatsby';
 import logo from '../assets/img/logonoswhite.png';
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
+import formacao from '../assets/images/formacao.jpg';
+import campanha from '../assets/images/campanha.jpg';
+import midias from '../assets/images/midias.jpg';
+import nucleos from '../assets/images/nucleos.jpg';
+
 import Scroll from '../components/Scroll';
 import Gallery from '../components/Gallery';
 
@@ -88,7 +91,7 @@ const IndexPage = () => (
 
     <article id="first" className="container box style1 right">
       <a href="/#" className="image fit">
-        <img src={pic1} alt="" />
+        <img src={nucleos} alt="" />
       </a>
       <div className="inner">
         <header>
@@ -104,7 +107,7 @@ const IndexPage = () => (
 
     <article className="container box style1 left">
       <a href="/#" className="image fit">
-        <img src={pic2} alt="" />
+        <img src={formacao} alt="" />
       </a>
       <div className="inner">
         <header>
@@ -120,7 +123,7 @@ const IndexPage = () => (
 
     <article className="container box style1 right">
       <a href="/#" className="image fit">
-        <img src={pic2} alt="" />
+        <img src={campanha} alt="" />
       </a>
       <div className="inner">
         <header>
@@ -136,7 +139,7 @@ const IndexPage = () => (
 
     <article className="container box style1 left">
       <a href="/#" className="image fit">
-        <img src={pic2} alt="" />
+        <img src={campanha} alt="" />
       </a>
       <div className="inner">
         <header>
@@ -152,7 +155,7 @@ const IndexPage = () => (
 
     <article className="container box style1 right">
       <a href="/#" className="image fit">
-        <img src={pic2} alt="" />
+        <img src={midias} alt="" />
       </a>
       <div className="inner">
         <header>
