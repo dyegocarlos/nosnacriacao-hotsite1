@@ -16,6 +16,11 @@ export default function Footer() {
           );
         })}
       </ul>
+      <div className='container'>
+        <a href="https://linktr.ee/Nosnacriacao" className="button">
+          Outras informações
+        </a>
+      </div>
       {/* <div className="copyright">
         <ul className="menu">
           <li>&copy; Untitled. All rights reserved.</li>

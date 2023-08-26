@@ -7,6 +7,7 @@ import { Link } from 'gatsby';
 import logo from '../assets/img/logonoswhite.png';
 import formacao from '../assets/images/formacao.jpg';
 import campanha from '../assets/images/campanha.jpg';
+import pastoral from '../assets/images/pastoral.png';
 import midias from '../assets/images/midias.jpg';
 import nucleos from '../assets/images/nucleos.jpg';
 
@@ -80,18 +81,19 @@ const IndexPage = () => (
             Doar
           </a>
         </Scroll>
-        <a href="https://linktr.ee/Nosnacriacao" className="button style2 scrolly">
-          Saiba mais
-        </a>
-
+        <Scroll type="id" element="first">
+          <a href="#first" className="button style2 scrolly">
+            Saiba mais
+          </a>
+        </Scroll>
       </footer>
     </section >
 
-    <section className="inner title center white">
+    <section id="first" className="inner title center white">
       <h2>Principais formas de atuação:</h2>
     </section>
 
-    <article id="first" className="container box style1 right">
+    <article className="container box style1 right">
       <a href="/#" className="image fit">
         <img src={nucleos} alt="" />
       </a>
@@ -125,7 +127,7 @@ const IndexPage = () => (
 
     <article className="container box style1 right">
       <a href="/#" className="image fit">
-        <img src={campanha} alt="" />
+        <img src={pastoral} alt="" />
       </a>
       <div className="inner">
         <header>
