@@ -65,40 +65,26 @@ const IndexPage = () => (
 
         <h2>Nós na Criação</h2>
       </header>
-      <p>O Nós na Criação é um movimento de juventude cristã focado em colaborar com a igreja local na vivência da fé em relação de coexistência na Criação de Deus. A atuação do movimento com a juventude se estabelece na reflexão a respeito da fé na Criação de Deus, da qual somos parte. Entendemos que o tema do Meio Ambiente e da coexistência harmônica na criação de Deus não é um tema acessório ou transitório, mas permanente e urgente.
+      <p>O Nós na Criação é um movimento latino-americano de inspiração cristã focado em colaborar com lideranças, igrejas e grupos locais na caminhada de se perceber como parte da Criação de Deus.  Atuamos na reflexão e vivência da fé em relação de coexistência na Criação, entendendo que o tema do Meio Ambiente não é um tema acessório ou transitório, mas permanente e urgente.
       </p> <br />
-      {/* <p>A metodologia criada pelo Nós na Criação tem por premissa a leitura e reflexão crítica das escrituras a partir da segunda carta de Paulo aos Coríntios sobre o Ministério da Reconciliação (2Co 5:18-20). Aliando esse texto ao amor incondicional de Deus (Jo 3:16) e ao mandado de Jesus sobre a vivência do evangelho junto a TODA criatura (Mc 16:15), entendemos que não podemos nos furtar de vivenciar essa espiritualidade na Criação, fazendo isso apenas entre a humanidade, como se esta não fizesse parte da Criação como um todo.</p> */}
-      <footer>
-        {/* <Scroll type="id" element="first"> */}
-        <a href="https://forms.gle/RHF26Ec738E5S1to7" className="button style2">
-          Participar
-        </a>
-        <a href="#" className="button style3 scrolly">
-          Doar
-        </a>
-        <a href="https://linktr.ee/Nosnacriacao" className="button style2 scrolly">
-          Saiba mais
-        </a>
-        {/* </Scroll> */}
-      </footer>
-      <Footer />
+
     </section >
     {/* <Header /> */}
-    {/* <article id="first" className="container box style1 right">
+    <section className="inner title center white">
+      <h2>Principais formas de atuação:</h2>
+    </section>
+    <article id="first" className="container box style1 right">
       <a href="/#" className="image fit">
         <img src={pic1} alt="" />
       </a>
       <div className="inner">
         <header>
           <h2>
-            Lorem ipsum
-            <br />
-            dolor sit amet
+            Núcleos locais
           </h2>
         </header>
         <p>
-          Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia
-          pellentesque eleifend vitae est elit tristique velit tempus etiam.
+          Estudam e se dedicam para o avanço de discussões ecoteológicas, reunindo pessoas que possuem o interesse a questão socioambiental atrelada a fé cristã.
         </p>
       </div>
     </article>
@@ -110,29 +96,85 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h2>
-            Mollis posuere
-            <br />
-            lectus lacus
+            Formação e Mentoria
           </h2>
         </header>
         <p>
-          Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper.
-          Etiam egestas scelerisque ac duis magna lorem ipsum dolor.
+          Têm como objetivo capacitar e orientar facilitadores que desejam atuar no campo da ecoteologia. O movimento oferece treinamentos presenciais ou online para que os facilitadores estejam preparados para liderar núcleos locais, pastorais ambientais e outras atividades relacionadas à causa socioambiental. Além disso, as mentorias visam acompanhar e orientar os facilitadores na implementação de projetos e ações em suas comunidades locais.
         </p>
       </div>
     </article>
 
+    <article className="container box style1 left">
+      <a href="/#" className="image fit">
+        <img src={pic2} alt="" />
+      </a>
+      <div className="inner">
+        <header>
+          <h2>
+            Pastoral Ambiental
+          </h2>
+        </header>
+        <p>
+          Visa introduzir e aprofundar a temática ambiental no campo de missão da igreja, trabalhando junto com a liderança para implementar ações práticas na realidade local e conscientizar a comunidade.
+        </p>
+      </div>
+    </article>
+
+    <article className="container box style1 left">
+      <a href="/#" className="image fit">
+        <img src={pic2} alt="" />
+      </a>
+      <div className="inner">
+        <header>
+          <h2>
+            Campanhas
+          </h2>
+        </header>
+        <p>
+          Objetivam realizar ações e conscientizar a comunidade local sobre temas socioambientais relevantes, como o selo da igreja zero descartáveis, ações contra o marco temporal e proteção aos povos indígenas.
+        </p>
+      </div>
+    </article>
+
+    <article className="container box style1 left">
+      <a href="/#" className="image fit">
+        <img src={pic2} alt="" />
+      </a>
+      <div className="inner">
+        <header>
+          <h2>
+            Criação de conteúdo
+          </h2>
+        </header>
+        <p>
+          Visa produzir materiais informativos e educativos para disseminar informações, reflexões e diálogos sobre a relação entre a fé cristã e a proteção do meio ambiente.
+        </p>
+      </div>
+    </article>
+
+
+
+
+
+
+
+
     <article className="container box style2">
       <header>
-        <h2>Magnis parturient</h2>
+        {/* <h2>
+          Final
+        </h2> */}
         <p>
-          Justo phasellus et aenean dignissim
-          <br />
-          placerat cubilia purus lectus.
+          A metodologia criada pelo Nós na Criação tem por premissa a leitura e reflexão crítica das escrituras a partir da segunda carta de Paulo aos Coríntios sobre o Ministério da Reconciliação (2Co 5:18-20). Aliando esse texto ao amor incondicional de Deus (Jo 3:16) e ao mandado de Jesus sobre a vivência do evangelho junto a TODA criatura (Mc 16:15), entendemos que não podemos vivenciar uma espiritualidade apenas entre a humanidade, mas sim entre a Criação como um todo.
+        </p>
+        <br />
+        <p>
+          Neste caminho, buscamos fazer a leitura da revelação a partir da Ecoteologia Decolonial, que não nega a Teologia Clássica, mas abre mão do antropocentrismo que coloca o ser humano no papel de dominar todas as coisas, quando o significado de “dominar”, no entendimento comum, tem sido explorar. O Nós na Criação possui Missão, Visão e Valores bem definidos que podem ser encontrados no botão saiba mais.
         </p>
       </header>
 
-      <div className="inner gallery">
+      {/* <div className="inner gallery">
         <Gallery
           images={ROW1_IMAGES.map(({ src, thumbnail, caption }) => ({
             src,
@@ -147,10 +189,10 @@ const IndexPage = () => (
             caption,
           }))}
         />
-      </div>
+      </div>*/}
     </article>
 
-    <article className="container box style3">
+    {/* <article className="container box style3">
       <header>
         <h2>Nisl sed ultricies</h2>
         <p>Diam dignissim lectus eu ornare volutpat orci.</p>
@@ -197,6 +239,20 @@ const IndexPage = () => (
       </header>
     </article> */}
 
+    <footer className='center'>
+      {/* <Scroll type="id" element="first"> */}
+      <a href="https://forms.gle/RHF26Ec738E5S1to7" className="button style2">
+        Participar
+      </a>
+      <a href="#" className="button style3 scrolly">
+        Doar
+      </a>
+      <a href="https://linktr.ee/Nosnacriacao" className="button style2 scrolly">
+        Saiba mais
+      </a>
+      {/* </Scroll> */}
+    </footer>
+    <Footer />
 
   </Layout >
 );
