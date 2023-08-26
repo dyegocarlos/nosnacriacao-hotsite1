@@ -67,12 +67,25 @@ const IndexPage = () => (
       </header>
       <p>O Nós na Criação é um movimento latino-americano de inspiração cristã focado em colaborar com lideranças, igrejas e grupos locais na caminhada de se perceber como parte da Criação de Deus.  Atuamos na reflexão e vivência da fé em relação de coexistência na Criação, entendendo que o tema do Meio Ambiente não é um tema acessório ou transitório, mas permanente e urgente.
       </p> <br />
-
+      <footer className='center'>
+        {/* <Scroll type="id" element="first"> */}
+        <a href="https://forms.gle/RHF26Ec738E5S1to7" className="button style2">
+          Participar
+        </a>
+        <a href="#" className="button style3 scrolly">
+          Doar
+        </a>
+        <a href="https://linktr.ee/Nosnacriacao" className="button style2 scrolly">
+          Saiba mais
+        </a>
+        {/* </Scroll> */}
+      </footer>
     </section >
-    {/* <Header /> */}
+
     <section className="inner title center white">
       <h2>Principais formas de atuação:</h2>
     </section>
+
     <article id="first" className="container box style1 right">
       <a href="/#" className="image fit">
         <img src={pic1} alt="" />
@@ -105,7 +118,7 @@ const IndexPage = () => (
       </div>
     </article>
 
-    <article className="container box style1 left">
+    <article className="container box style1 right">
       <a href="/#" className="image fit">
         <img src={pic2} alt="" />
       </a>
@@ -137,7 +150,7 @@ const IndexPage = () => (
       </div>
     </article>
 
-    <article className="container box style1 left">
+    <article className="container box style1 right">
       <a href="/#" className="image fit">
         <img src={pic2} alt="" />
       </a>
@@ -158,13 +171,14 @@ const IndexPage = () => (
 
 
 
+    {/* <Header /> */}
 
-
-    <article className="container box style2">
+    <article className="container white box">
       <header>
         {/* <h2>
           Final
         </h2> */}
+        <div className='center'><img width="100px" src={logo} /></div>
         <p>
           A metodologia criada pelo Nós na Criação tem por premissa a leitura e reflexão crítica das escrituras a partir da segunda carta de Paulo aos Coríntios sobre o Ministério da Reconciliação (2Co 5:18-20). Aliando esse texto ao amor incondicional de Deus (Jo 3:16) e ao mandado de Jesus sobre a vivência do evangelho junto a TODA criatura (Mc 16:15), entendemos que não podemos vivenciar uma espiritualidade apenas entre a humanidade, mas sim entre a Criação como um todo.
         </p>
@@ -239,19 +253,6 @@ const IndexPage = () => (
       </header>
     </article> */}
 
-    <footer className='center'>
-      {/* <Scroll type="id" element="first"> */}
-      <a href="https://forms.gle/RHF26Ec738E5S1to7" className="button style2">
-        Participar
-      </a>
-      <a href="#" className="button style3 scrolly">
-        Doar
-      </a>
-      <a href="https://linktr.ee/Nosnacriacao" className="button style2 scrolly">
-        Saiba mais
-      </a>
-      {/* </Scroll> */}
-    </footer>
     <Footer />
 
   </Layout >
