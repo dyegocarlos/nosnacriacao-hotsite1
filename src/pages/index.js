@@ -74,7 +74,7 @@ const IndexPage = () => (
       <footer className='center'>
 
         <a href="https://forms.gle/RHF26Ec738E5S1to7" className="button style2">
-          Participar
+          Participar do movimento
         </a>
         <Scroll type="id" element="doar">
           <a href="#doar" className="button style3 scrolly">
