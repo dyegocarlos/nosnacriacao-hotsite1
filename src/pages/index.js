@@ -83,15 +83,40 @@ const IndexPage = () => (
         </Scroll>
         <Scroll type="id" element="first">
           <a href="#first" className="button style2 scrolly">
-            Saiba mais
+            Campanha Nós na Criação
           </a>
         </Scroll>
       </footer>
-    </section >
+    </section>
 
-    <section id="first" className="inner title center white">
+    <section className="inner title center white">
       <h2>Principais formas de atuação:</h2>
     </section>
+
+    <article className="container box style1 left">
+      <a href="/#" className="image fit">
+        <img src={campanha} alt="" />
+      </a>
+      <div className="inner">
+        <header>
+          <h2>
+            Campanhas
+          </h2>
+        </header>
+        <p>
+          Objetivam realizar ações e conscientizar a comunidade local sobre temas socioambientais relevantes, como o selo da igreja zero descartáveis, ações contra o marco temporal e proteção aos povos indígenas.
+        </p>
+      </div>
+    </article>
+    <article id="first" className="inner container box style2 white">
+      <h2>Campanha Nós na Criação (2ª Edição)</h2>
+      <p>Dado o sucesso da 1ª edição, que pode ser visto na apresentação a seguir, a partir de Outubro/2023, estamos lançando a 2ª Edição da Campanha Nós na Criação.</p>
+      <p>Você pode inscrever sua igreja no link abaixo.</p>
+      <iframe src="https://drive.google.com/file/d/10hhtwzQpVQ3Hoj-B6ekG7_-rpH2USrQi/preview" width="100%" height="440" allow="autoplay"></iframe>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKM42olcwBbmMsSNdTc2laaGdSmOnVj2_bNDNAsxuPkNQ6Qg/viewform" className="button btngreen">
+        Inscrição 2ª Edição<br />(Vagas Limitadas)
+      </a>
+    </article>
 
     <article className="container box style1 right">
       <a href="/#" className="image fit">
@@ -137,22 +162,6 @@ const IndexPage = () => (
         </header>
         <p>
           Visa introduzir e aprofundar a temática ambiental no campo de missão da igreja, trabalhando junto com a liderança para implementar ações práticas na realidade local e conscientizar a comunidade.
-        </p>
-      </div>
-    </article>
-
-    <article className="container box style1 left">
-      <a href="/#" className="image fit">
-        <img src={campanha} alt="" />
-      </a>
-      <div className="inner">
-        <header>
-          <h2>
-            Campanhas
-          </h2>
-        </header>
-        <p>
-          Objetivam realizar ações e conscientizar a comunidade local sobre temas socioambientais relevantes, como o selo da igreja zero descartáveis, ações contra o marco temporal e proteção aos povos indígenas.
         </p>
       </div>
     </article>

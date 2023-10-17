@@ -191,6 +191,18 @@
 		}
 	}
 
+	a.btngreen {
+		color: #fff;
+		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+		border-bottom-color: rgba(255, 255, 255, 0.5);
+
+		&:hover {
+			color: #35b88f;
+			text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
+			border-bottom-color: rgba(53, 184, 143, 0.5);
+		}
+	}
+
 	sub {
 		position: relative;
 		top: 0.5em;
